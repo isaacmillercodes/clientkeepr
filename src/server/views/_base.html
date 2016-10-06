@@ -18,8 +18,26 @@
     {% block css %}{% endblock %}
   </head>
   <body>
-      {% block content %}
-      {% endblock %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <p class="navbar-brand navbar-left" href="/">ClientKeepr</a>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/">Home</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+      </div>
+    </nav>
+    {% block content %}
+    {% endblock %}
+
+
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container footer">
+        <p class="navbar-text footer-text">Copyright (c) 2016 ClientKeepr All Rights Reserved.</p>
+      </div>
+    </nav>
+
     <script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/main.js"></script>
