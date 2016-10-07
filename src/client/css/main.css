@@ -1,6 +1,10 @@
+/*font-family: 'Shrikhand', cursive;
+font-family: 'Libre Baskerville', serif;*/
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 a {
@@ -10,4 +14,9 @@ a {
 .footer-text {
   float: none;
   text-align: center;
+}
+
+.navbar-fixed-top {
+  padding-top: 1%;
+  font-size: 18px;
 }
